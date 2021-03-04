@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ProcessComponent } from './process/process.component';
+import { StepperComponent } from './stepper/stepper.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent,
+    ProcessComponent,
+    StepperComponent
   ],
   imports: [
     BrowserModule,

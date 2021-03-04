@@ -1,0 +1,5 @@
+<p>stepper works!</p>
+<div *ngFor="let step of steps">
+  <h2>{{step.title}}</h2>
+  <div>{{step.value}}<button (click)="updateValue(step)">+ </button></div>
+</div>
